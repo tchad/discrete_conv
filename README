@@ -1,0 +1,13 @@
+Using discrete convolution to calculate derivative and compute gaussing smoothing(low pass filter)
+The software is designed to work with Python version 3 and tested on Python v3.7
+
+Additional dependencies:
+    Matplotlib
+    pip (if installing matplotlib through virtualenv)
+
+
+Running(using virtualenv)
+    virtual env -p /usr/bin/python3 env
+    source env/bin/activate
+    pip install matplotlib
+    python main.py
