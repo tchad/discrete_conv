@@ -1,0 +1,12 @@
+This is an updatec C implementation of the FFT algorithm.
+Changes:
+    - Fixed indexing
+    - Changed the sorting of final layer output. Now it uses bit reversal to establish correct index of an output element.
+    - Readig input data from text file, the path to file must be given at runtime as an argument.
+    ex: ./fft data.in data.cplxfft 17
+
+    ARGS:
+     1 - source file path
+     2 - dest file path
+     3 - size of array expressed as N=log2(array size), MUST BE whole number == array size = 2^N
+
